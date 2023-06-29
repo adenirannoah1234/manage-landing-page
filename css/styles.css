@@ -303,9 +303,17 @@ li{
 @media screen and (max-width: 992px){
     nav{
         display: flex;
-        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
     }
-    .child3{
+    .first-ul{
+        gap:1rem ;
+    }
+    .image2{
+        width: 100%;
+    }
+    /* .child3{
         position: relative;
         top: -150px;
     }
@@ -322,5 +330,5 @@ li{
     .first-child{
         width: 40%;
     } */
-    
+     */
 }
