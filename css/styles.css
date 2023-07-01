@@ -181,9 +181,14 @@ li{
     color: white;
     box-shadow: 3px 3px 3px hsl(12, 88%, 59%);
     margin-top: 20px;
-    position: relative;
+    /* position: relative;
     left: 550px;
-    top: -200px;
+    top: -200px; */
+}
+.stn{
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .lastbutton{
     padding: 15px 39px;
@@ -341,11 +346,11 @@ li{
         position: relative;
         top: -50px;
     }
-    .started{
+    /* .started{
         position: relative;
         top: -50px;
         left: 400px;
-    }
+    } */
     .lastdiv h1{
         width: 70%;
     }
@@ -364,11 +369,8 @@ li{
     .copyt{
         display: none;
     }
-}
-@media screen and (max-width: 800px){
-    .child3{
 
-    }
+    
 }
 @media screen and (max-width: 768px){
     nav{
@@ -606,13 +608,30 @@ li{
         width: 80%;
         text-align: center;
     }
-    .started{
+    /* .started{
         display: inline;
         margin: 0 auto;
-    }
+    } */
     .sbtn{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .first-child h1{
+        font-size: 1.5rem;
+    }
+    .firsttext{
+        font-size: 20px;
+    }
+    .child3{
+        font-size: 1.8rem;
+    }
+    .footers1{
+        padding: 40px;
+    }
+    .lastdiv h1{
+        font-size: 1.8rem;
     }
 }
