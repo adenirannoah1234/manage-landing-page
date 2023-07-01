@@ -28,7 +28,7 @@ li{
 }
 .button-one{
     /* position: absolute; */
-    padding: 10px 25px;
+    padding: 8px 20px;
     border-radius: 50px;
     background-color: hsl(12, 88%, 59%);
     border: none;
@@ -50,6 +50,9 @@ li{
 .image2{
     width: 50%;
     /* padding-bottom: 70px; */
+}
+.stn{
+    margin-bottom: 50px;
 }
 .button-two{
     padding: 8px 20px;
@@ -174,7 +177,7 @@ li{
     height: 50%;
 }
 .started{
-    padding: 15px 35px;
+    padding: 8px 20px;
     border-radius: 50px;
     background-color: hsl(12, 88%, 59%);
     border: none;
@@ -369,6 +372,9 @@ justify-content: center;
     .copyt{
         display: none;
     }
+    .stn{
+        margin-bottom: 50px;
+    }
 
     
 }
@@ -408,6 +414,9 @@ justify-content: center;
         color: white;
         box-shadow: 3px 3px 3px hsl(12, 88%, 59%);
         font-size: 12px;
+    }
+    .stn{
+        margin-bottom: 50px;
     }
     .image2{
         width: 50%;
@@ -451,10 +460,10 @@ justify-content: center;
         font-size: 15px;
         width: 90%;
     }
-    .started{
+    /* .started{
         position: relative;
         left: 320px;
-    }
+    } */
     .copyt{
         display: none;
     }
@@ -496,7 +505,7 @@ justify-content: center;
     }
     .pp{
         width: 100%;
-        padding-right: 30px;
+        /* padding-right: 30px; */
     }
     .child2{
         font-size: 15px;
@@ -598,6 +607,7 @@ justify-content: center;
     }
     .descendant1{
         background-color:hsla(10, 100%, 83%, 0.664) ;
+        
     }
     .lastdiv{
         display: flex;
@@ -617,6 +627,18 @@ justify-content: center;
         align-items: center;
         justify-content: center;
     }
+    .descendant1{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .child3{
+        font-size: 1.8rem;
+    }
+    #third-section{
+    padding: 0;
+    }
 }
 @media screen and (max-width: 375px){
     .first-child h1{
@@ -633,5 +655,15 @@ justify-content: center;
     }
     .lastdiv h1{
         font-size: 1.8rem;
+    }
+    #third-section{
+        padding: 0;
+    }
+    .first-child p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .child3{
+        margin-top: 20px;
     }
 }
