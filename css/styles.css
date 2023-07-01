@@ -28,7 +28,7 @@ li{
 }
 .button-one{
     /* position: absolute; */
-    padding: 14px 35px;
+    padding: 10px 25px;
     border-radius: 50px;
     background-color: hsl(12, 88%, 59%);
     border: none;
@@ -52,7 +52,7 @@ li{
     /* padding-bottom: 70px; */
 }
 .button-two{
-    padding: 15px 35px;
+    padding: 10px 25px;
     border-radius: 50px;
     background-color: hsl(12, 88%, 59%);
     border: none;
@@ -325,7 +325,7 @@ li{
     }
     .child3{
         position: relative;
-        top: -150px;
+        top: -100px;
     }
     .parent2{
         position: relative;
