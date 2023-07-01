@@ -545,6 +545,13 @@ justify-content: center;
     .parent2{
         margin-bottom: 59px;
     }
+    .footerlist4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .copyt{
+        display: flex;
+    }
 }
 @media screen and (max-width: 480px){
     #second-section{
@@ -639,6 +646,13 @@ justify-content: center;
     #third-section{
     padding: 10px;
     }
+    .copyt{
+        display: flex;
+    }
+    .footerlist4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 @media screen and (max-width: 375px){
     .first-child h1{
@@ -671,5 +685,12 @@ justify-content: center;
     }
     .first-child{
         padding: 10px;
+    }
+    .footerlist4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .copyt{
+        display: flex;
     }
 }
