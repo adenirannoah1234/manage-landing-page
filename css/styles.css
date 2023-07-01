@@ -196,9 +196,8 @@ li{
     justify-content: space-between;
     gap: 20%;
     background-color: hsl(12, 88%, 59%);
-    height: 200px;
+    height: 200px; 
     position: relative;
-    /* top: -80px; */
     z-index: 1;
     padding: 50px 100px 40px 100px;
 }
@@ -281,7 +280,7 @@ li{
 }
 @media screen and (max-width: 1200px){
     nav{
-        padding: 40px 60px;
+        padding: 40px;
     } 
     #second-section{
         padding: 40px 60px;
@@ -303,17 +302,22 @@ li{
 @media screen and (max-width: 992px){
     nav{
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
+        gap: 5rem;
         padding: 20px;
+        padding-top: 30px;
+    }
+    .first-child h1{
+        font-size: 40px;
     }
     .first-ul{
         gap:1rem ;
     }
     .image2{
-        width: 100%;
+        width: 50%;
     }
-    /* .child3{
+    .child3{
         position: relative;
         top: -150px;
     }
@@ -321,14 +325,243 @@ li{
         position: relative;
         top: -100px;
     }
-    /* .button-one{
-        display: none;
+    .started{
+        position: relative;
+        top: -50px;
+        left: 400px;
+    }
+    .lastdiv h1{
+        width: 70%;
+    }
+    .lastdiv{
+    padding:50px 80px 40px 80px ; 
+    gap: 10%;
+    }
+    .lastbutton{
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: white;
+        border: none;
+        color: hsl(12, 88%, 59%);
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 768px){
+    nav{
+        padding: 20px;
+        font-size: 12px;
+        gap: 3rem;
+    }
+    .button-one{
+        /* position: absolute; */
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: hsl(12, 88%, 59%);
+        border: none;
+        color: white;
+        box-shadow: 3px 3px 3px hsl(12, 88%, 59%);
+        font-size: 12px;
+    }
+    .button-two{
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: hsl(12, 88%, 59%);
+        border: none;
+        color: white;
+        box-shadow: 3px 3px 3px hsl(12, 88%, 59%);
+        font-size: 12px;
+    }
+    .started{
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: hsl(12, 88%, 59%);
+        border: none;
+        color: white;
+        box-shadow: 3px 3px 3px hsl(12, 88%, 59%);
+        font-size: 12px;
     }
     .image2{
         width: 50%;
     }
+    .image1{
+        top: -30%;
+    }
+    #second-section{
+        padding: 40px 40px;
+    }
+    .first-child h1{
+        font-size: 30px;
+    }
+    .first-child p{
+     font-size: 14px;
+     margin-top: 20px;
+    }
+    #third-section{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 50px;
+        gap: 3px;
+    }
+    .firsttext{
+        font-size: 30px;
+    }
+    .child2{
+        font-size: 17px;
+    }
+    #child1{
+    padding: 8px 20px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    color: white;
+    }
+    .secondtext{
+        font-size: 15px;
+        width: 90%;
+    }
+    .pp{
+        font-size: 15px;
+        width: 90%;
+    }
+    .started{
+        position: relative;
+        left: 320px;
+    }
+    .footers1{
+        padding: 60px;
+        gap: 2rem;
+    }
+    .small{
+        margin-top: 10px;
+    }
+    .copy{
+        font-size: 13px;
+    }
+    .email{
+        width: 200px;
+    }
+    .lastdiv h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 576px){
+    .button-one , .button-two , .started{
+        display: none;
+    }
+    .image2{
+        width: 55%;
+    }
+    #second-section{
+        padding: 20px;
+    }
+    .first-child h1{
+        font-size: 20px;
+    }
+    .first-child p{
+        width: 90%;
+    }
+    .firsttext{
+        font-size: 25px;
+    }
+    .pp{
+        width: 100%;
+        padding-right: 30px;
+    }
+    .child2{
+        font-size: 15px;
+    }
+    .parent2{
+        position: relative;
+        top: 0;
+    }
+    .child3{
+        position: relative;
+        top: 0;
+    }
+    .footers1{
+        display: flex;
+         flex-direction: column-reverse; 
+        align-items: center;
+    }
+    .ft{
+        display: flex;
+        gap: 8rem;
+    }
+    .copy{
+        display: none;
+    }
+    .copyt{
+        color: white;
+        font-size: 10px;
+
+    }
+    .lastdiv{
+        padding: 20px;
+    }
+    .lastdiv h1{
+        width: 60%;
+        font-size: 1.5rem;
+    }
+    .parent2{
+        margin-bottom: 59px;
+    }
+}
+@media screen and (max-width: 480px){
+    #second-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .image2{
+        width: 100%;
+    }
     .first-child{
-        width: 40%;
-    } */
-     */
+        width: 100%;
+        padding: 30px;
+    }
+    .first-child h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .first-child p{
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+    }
+    #third-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+    .image6{
+        position: relative;
+        left: -130%;
+        display: none;
+        width: 30%;
+    }
+    .firstdiv{
+        width: 100%;
+    }
+    .thirdchild{
+        width: 100%;
+    }
+    .pp{
+        width: 100%;
+        font-size: 16px;
+      margin-left: 0;  
+      line-height: 1.9;
+    }
+    .firsttext{
+        width: 100%;
+        text-align: center;
+    }
+    .secondtext{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 5px;
+    }
 }
