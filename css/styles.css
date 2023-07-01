@@ -52,7 +52,7 @@ li{
     /* padding-bottom: 70px; */
 }
 .button-two{
-    padding: 10px 25px;
+    padding: 8px 20px;
     border-radius: 50px;
     background-color: hsl(12, 88%, 59%);
     border: none;
@@ -250,6 +250,13 @@ li{
     flex-direction: column;
     gap: 6rem;
 }
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    justify-content: space-between;
+}
 .footerlist2 a{
     list-style: none;
     text-decoration: none;
@@ -323,13 +330,16 @@ li{
     .image2{
         width: 50%;
     }
+    .footers1{
+        padding: 60px;
+    }
     .child3{
         position: relative;
-        top: -100px;
+        top: -20px;
     }
     .parent2{
         position: relative;
-        top: -100px;
+        top: -50px;
     }
     .started{
         position: relative;
@@ -355,12 +365,20 @@ li{
         display: none;
     }
 }
+@media screen and (max-width: 800px){
+    .child3{
+
+    }
+}
 @media screen and (max-width: 768px){
     nav{
         padding: 20px;
         font-size: 12px;
         gap: 3rem;
     }
+    /* .copyri{
+        display: flex;
+    } */
     .button-one{
         /* position: absolute; */
         padding: 10px 20px;
