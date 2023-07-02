@@ -35,6 +35,9 @@ li{
     color: white;
     box-shadow: 3px 3px 3px hsl(12, 88%, 59%);
 }
+.toggler{
+    display: none;
+}
 #second-section{
     display: flex;
     position: relative;
@@ -109,10 +112,11 @@ li{
 }
  .child2{
     font-size: 18px;
-    color: hsl(233, 12%, 13%);
+    color: hsl(228, 39%, 23%);
 }
 .descendant1{
     margin-top: 30px;
+    height: 40px;
 }
 .pp{
     margin-left: 6rem;
@@ -284,10 +288,11 @@ justify-content: center;
     margin-top: 20px;
 }
 .email{
-    height: 40px;
+    height: 35px;
     border-radius: 50px;
-    width: 180px;
+    width: 170px;
     border: none;
+    padding: 13px;
 }
 .small{
     background-color: hsl(12, 88%, 59%);
@@ -478,7 +483,7 @@ justify-content: center;
         font-size: 13px;
     }
     .email{
-        width: 200px;
+        width: 170px;
     }
     .lastdiv h1{
         font-size: 1.5rem;
@@ -548,9 +553,29 @@ justify-content: center;
     .footerlist4{
         display: flex;
         flex-direction: column-reverse;
+        gap: 2.5rem;
     }
     .copyt{
         display: flex;
+    }
+    .ri-close-circle-line{
+        display: none;
+    }
+    .toggler{
+        display: block;
+    }
+    .first-ul{
+    flex-direction: column;
+    background-color: #fff;
+    position: fixed;
+    top: -30%;
+    left: 50%;
+    width: 60%;
+    padding: 30px;
+    text-align: center;
+    transform: translate(-50%,-50%); 
+    box-shadow: 5px 5px 10px rgb(207, 207, 207);
+    transition: .5s;
     }
 }
 @media screen and (max-width: 480px){
@@ -639,9 +664,14 @@ justify-content: center;
         margin-left: 0;
         margin-right: 0;
         width: 100%;
+        border-radius: 50px 0 0 50px;
+        gap: 12px;
     }
     .child3{
         font-size: 1.8rem;
+    }
+    .child2{
+        font-size: 16px;
     }
     #third-section{
     padding: 10px;
@@ -652,6 +682,7 @@ justify-content: center;
     .footerlist4{
         display: flex;
         flex-direction: column-reverse;
+        gap: 2.5rem;
     }
 }
 @media screen and (max-width: 375px){
@@ -665,7 +696,8 @@ justify-content: center;
         font-size: 1.8rem;
     }
     .footers1{
-        padding: 40px;
+        padding: 40px;    
+        font-size: 13px;
     }
     .lastdiv h1{
         font-size: 1.8rem;
@@ -689,6 +721,7 @@ justify-content: center;
     .footerlist4{
         display: flex;
         flex-direction: column-reverse;
+        gap: 2.5rem;
     }
     .copyt{
         display: flex;
