@@ -6,7 +6,7 @@ const navList = document.querySelector("nav ul");
 
 openNav.addEventListener("click", function() {
 
-    navList.style.top = "40%"
+    navList.style.top = "60%"
 
     openNav.style.display = "none"
 
@@ -16,7 +16,7 @@ openNav.addEventListener("click", function() {
 
 closeNav.addEventListener("click", function() {
 
-    navList.style.top = "-40%"
+    navList.style.top = "-60%"
 
     openNav.style.display = "block"
 
@@ -28,7 +28,7 @@ document.querySelectorAll("nav ul a").forEach(navLink => {
 
     navLink.addEventListener("click", function() {
 
-        navList.style.top = "-40%"
+        navList.style.top = "-60%"
 
         openNav.style.display = "block"
 
